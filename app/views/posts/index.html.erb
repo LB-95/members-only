@@ -1,1 +1,11 @@
-<h1>Hello, Rails!</h1>
+<h1>Homepage</h1>
+<%= link_to "New Post", new_post_path%>
+    <ul>
+        <%@posts.each do |post|%>
+            <li>
+                <h2><%= @post.title%></h2>
+                <p><%= @post.body %>
+            </li>
+        <% end %>
+    </ul>
+    
