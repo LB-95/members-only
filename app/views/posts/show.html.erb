@@ -1,0 +1,10 @@
+<h1><%= @post.title %></h1>  
+<%if user_signed_in?%>
+    <p class="lead">Written by User <%=@post.user.email%></p>
+  <%else%>
+    <p>Log in to see the author</p>
+  <%end%>
+
+<p><%= @post.body %></p>
+
+<%= link_to "Homepage", root_path %>
