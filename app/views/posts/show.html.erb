@@ -1,6 +1,6 @@
 <h1><%= @post.title %></h1>  
 <%if user_signed_in?%>
-    <p class="lead">Written by User <%=@post.user.email%></p>
+    <p class="lead">Written by User <%=@post.user.username%></p>
   <%else%>
     <p>Log in to see the author</p>
   <%end%>
