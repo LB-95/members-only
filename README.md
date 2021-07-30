@@ -1,3 +1,8 @@
 # README
 
-Members only is a small project that uses devise and has users who can write posts and thoes who are signin can se the email of the user who wrote the post
+Members-only
+
+Languages: ruby, html/css
+
+Project:
+Members can make posts but only users who have an account can see the author of the post
